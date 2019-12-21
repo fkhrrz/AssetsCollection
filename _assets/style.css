@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	font-size: 20pt;
+}
+
+.container {
+	background-color: #fff;
+	width: calc(92vw - 2px);
+	height: calc(92vh - 2px);
+	margin: 3vh 3vw;
+	padding: 1vh 1vw;
+	border: 1px solid black;
+	overflow-y: auto;
+}
+
+.action-button {
+	display: inline-block;
+	border-right: 1px solid black;
+	margin-right: 1vw;
+	padding-right: .5vw;
+	/*border-left: 1px solid black;*/
+	/*padding-left: .5vw;*/
+}
+
+.border-right {
+	width: 2.5vw;
+	margin-right: 1vw;
+	border-right: 1px solid #000;
+}
+
+.fa-folder, .fa-folder-open, .fa-eye {
+	cursor: pointer;
+}
+
+.level-0 { padding-left: 0 !important; }
+[class^="level-"] {
+	padding-left: 1vw;
+}
